@@ -1,0 +1,7 @@
+ 
+@mixin tablet {
+@media all and (min-width: 40rem) {
+// like a placeholder for CSS rules
+@content;
+}
+}
